@@ -1,0 +1,19 @@
+Clearwork-German — website download
+
+Unzip this folder before use.
+
+QUICK PREVIEW
+Install Python, open a terminal in this folder and run:
+python -m http.server 8000 --directory dist
+Then open http://localhost:8000 in your browser.
+Do not double-click HTML files: root-relative links need a local server.
+
+HOSTING
+Upload the contents of dist/ to your static web host.
+
+SOURCE EDITING
+See README.md for the build commands and content locations.
+
+STATUS
+This is a website demo. Contact forms do not deliver enquiries.
+Configure actual business details, domain, form delivery and indexing before commercial launch.
