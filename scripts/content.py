@@ -1,196 +1,187 @@
 SERVICES = [
     {
-        'slug': 'dachsanierung-eindeckung',
+        'slug': 'dachbeschichtung-versiegelung',
         'old_slug': 'water-tank-cleaning',
-        'name': 'Dachsanierung & Neueindeckung',
-        'short': 'Starkes Dach.\nDauerhafter Schutz.',
+        'name': 'Dachbeschichtung & Versiegelung',
+        'short': 'Professionelle Beschichtung.\nSchutz & neue Optik.',
         'category': 'DACH',
         'image': 'moving',
-        'alt': 'Handwerker bei Dacharbeiten an einem Wohnhaus in Harburg',
-        'intro': 'Eindeckung, Wärmedämmung und komplette Dachsanierung in Harburg und Hamburg – fachgerecht, modern und verlässlich.',
-        'description': 'Dachsanierung und Eindeckung von Dachservice Pintilei in Harburg. Steildach, Flachdach, Dämmung und Qualitätsarbeit vom Fachmann.',
-        'overview': 'Ob Abnutzung durch Witterung, energetische Modernisierung oder neue Ziegel: Eine fachgerechte Dachsanierung schützt die Bausubstanz Ihres Hauses nachhaltig. Dachservice Pintilei aus Harburg begutachtet Ihr Dach direkt vor Ort und plant die Eindeckung exakt nach Ihren Wünschen.',
-        'for': ['Private Hausbesitzer', 'Gewerbeobjekte', 'Hausverwaltungen in Hamburg & Harburg'],
+        'alt': 'Fachkraft bei der Dachbeschichtung an einem Einfamilienhaus in Hamburg',
+        'intro': 'Dachreinigung, Grundierung und hochwertige Dachbeschichtung in Hamburg und Norddeutschland – kompetent, schnell, zuverlässig.',
+        'description': 'Dachbeschichtung von Bartsch & Loßner GmbH in Hamburg. Schutz vor Witterung, Moos und Ausbleichen mit Marken-Dachfarben.',
+        'overview': 'Eine professionelle Dachbeschichtung schützt Ihre Betondachsteine oder Tondachziegel nachhaltig vor Verwitterung, Durchfeuchtung und Moosbefall. Bartsch & Loßner GmbH verwendet hochwertige, atmungsaktive Reinacryl-Farben für langjährigen Glanz und Schutz.',
+        'for': ['Private Hausbesitzer in Hamburg', 'Gewerbeobjekte & Hallen', 'Mehrfamilienhäuser in Norddeutschland'],
         'included': [
-            'Vor-Ort-Besichtigung & Fachberatung',
-            'Entfernung alter Eindeckung & Vorbereitung',
-            'Aufbringen von Unterspannbahnen & Lattung',
-            'Fachgerechte Eindeckung mit Ziegeln oder Dachsteinen',
-            'Dämmung & Anschlüsse an Kamin und Dachfenster',
-            'Saubere Baustellenübergabe & Qualitätskontrolle'
+            'Gründliche Dachreinigung mit regulierbarem Druck',
+            'Sichtprüfung und Austausch defekter Dachziegel',
+            'Auftragen einer abgestimmten Spezial-Grundierung',
+            'Zweifache Beschichtung mit hochwertiger Dachfarbe',
+            'Imprägnierung & Porenschutz gegen Flechten & Algen',
+            'Saubere Übergabe & Garantie auf die Beschichtung'
         ],
-        'scope_note': 'Sonderarbeiten wie Solarmontagen oder komplexe Gerüstbauten werden im individuellen Angebot klar ausgewiesen.',
+        'scope_note': 'Vor der Beschichtung wird die Eignung der Dachpfannen vor Ort in Hamburg kostenlos geprüft.',
         'steps': [
-            ('Dach beurteilen', 'Kostenlose Ersterfassung Ihres Daches vor Ort in Harburg und Umgebung.'),
-            ('Angebot erstellen', 'Detaillierter Kostenvoranschlag mit allen Material- und Arbeitsleistungen.'),
-            ('Fachgerecht ausführen', 'Saubere und meisterhafte Umsetzung durch erfahrene Dachdecker.'),
-            ('Gemeinsam abnehmen', 'Prüfung aller Eindeckungen und Anschlüsse bei der Übergabe.')
+            ('Kostenlose Dachprüfung', 'Ersterfassung und Beurteilung der Dachsubstanz bei Ihnen vor Ort.'),
+            ('Dachreinigung', 'Porentiefe Säuberung ohne den Einsatz chemischer Keulen.'),
+            ('Grundierung & Schutz', 'Aufbringen der Haftgrundierung und Schutzschichten.'),
+            ('Zweifache Beschichtung', 'Farbe aufsprühen für ein gleichmäßiges, wie neu wirkendes Dach.')
         ],
         'prepare': [
-            'Ungefähres Alter und Zustand des Daches',
-            'Fotos vom Dach und Speicher / Dachboden',
-            'Grundfläche oder ungefähre Dachfläche',
-            'Wunschtermin für die Arbeiten'
+            'Ungefähres Alter und Material der Dachpfannen',
+            'Grundfläche oder geschätzte Dachfläche in m²',
+            'Standort in Hamburg / Norddeutschland',
+            'Gewünschter Farbton für die Dachbeschichtung'
         ],
         'cost': [
-            'Dachfläche und Dachneigung',
-            'Wahl der Eindeckmaterialien (Tondachziegel, Betonsteine etc.)',
-            'Zusätzlicher Dämm- oder Ausbesserungsbedarf',
-            'Gerüstaufbau und Entsorgung des Altmaterials'
+            'Dachfläche und Dachsteintyp (Betonsteine, Tonziegel etc.)',
+            'Zugänglichkeit und Dachneigung',
+            'Erforderliche Reparatur- und Vorarbeiten',
+            'Auswahl des Beschichtungssystems'
         ],
         'faqs': [
-            ('Wie lange dauert eine komplette Dachsanierung?', 'Je nach Hausgröße und Wetterlage dauert eine Standard-Dachsanierung meist zwischen 3 und 7 Arbeitstagen.'),
-            ('Arbeiten Sie auch in Hamburg und Umgebung?', 'Ja, Dachservice Pintilei ist in Harburg, Hamburg und der gesamten Region für Sie im Einsatz.'),
-            ('Erhalte ich vorab einen verbindlichen Kostenvoranschlag?', 'Selbstverständlich! Nach der gemeinsamen Besichtigung erstellen wir ein detailliertes und transparentes Angebot.'),
-            ('Wer kümmert sich um die Entsorgung der alten Ziegel?', 'Dachservice Pintilei übernimmt den vollständigen Abtransport und die fachgerechte Entsorgung des Altmaterials.')
+            ('Wie lange hält eine professionelle Dachbeschichtung?', 'Bei fachgerechter Durchführung durch Bartsch & Loßner hält eine Qualitäts-Dachbeschichtung 15 bis 20+ Jahre.'),
+            ('Welche Farben stehen zur Auswahl?', 'Wir bieten eine große Auswahl an klassischen Tönen wie Anthrazit, Ziegelrot, Braun, Dunkelgrau und Glanzfarben.'),
+            ('Ist eine Beschichtung günstiger als eine Neueindeckung?', 'Ja! Eine Dachbeschichtung kostet meist nur etwa 20% bis 30% einer kompletten Neueindeckung bei optisch gleichwertigem Ergebnis.'),
+            ('Bieten Sie Garantie auf die Dachbeschichtung?', 'Selbstverständlich erhalten Sie bei Bartsch & Loßner eine schriftliche Gewährleistung auf unsere Beschichtungsarbeiten.')
         ],
-        'aside': 'Wertvoller Schutz für Ihr Gebäude – verlässlich geplant.'
+        'aside': 'Ihr Fachbetrieb aus Hamburg für den Norden – seit vielen Jahren.'
     },
     {
-        'slug': 'dachreparatur-notdienst',
+        'slug': 'dachreinigung-entmoosung',
         'old_slug': 'commercial-cleaning',
-        'name': 'Dachreparatur & Notdienst',
-        'short': 'Schnelle Hilfe.\nSicherer Schutz.',
-        'category': 'REPARATUR',
+        'name': 'Dachreinigung & Entmoosung',
+        'short': 'Gründliche Säuberung.\nFrei von Moos & Flechten.',
+        'category': 'REINIGUNG',
         'image': 'cleaning',
-        'alt': 'Dachdecker bei Reparaturarbeiten an einem Sturmschaden',
-        'intro': 'Schnelle Beseitigung von Sturmschäden, undichten Stellen und beschädigten Dachziegeln in Harburg und Umgebung.',
-        'description': 'Dachreparatur und Sturmschaden-Notdienst von Dachservice Pintilei Harburg. Zuverlässig, schnell vor Ort und fachgerecht repariert.',
-        'overview': 'Sturm, Starkregen oder lose Ziegel können schnell zu Folgeschäden führen. Dachservice Pintilei hilft zügig und unkompliziert. Wir schließen undichte Stellen, ersetzen defekte Ziegel und sichern Ihr Dach zuverlässig gegen Witterungseinflüsse.',
-        'for': ['Akute Sturmschäden', 'Undichte Stellen & Leckagen', 'Verschobene oder fehlende Ziegel'],
+        'alt': 'Dachreinigung mit Wasserhochdruck an einem Wohnhaus in Hamburg-Nord',
+        'intro': 'Schonende und porentiefe Dachreinigung ohne Beschädigung der Ziegel in Hamburg und Umgebung.',
+        'description': 'Porentiefe Dachreinigung und Entmoosung von Bartsch & Loßner GmbH Hamburg. Entfernung von Algen, Moos und Schmutzablagerungen.',
+        'overview': 'Moos, Flechten und Ruß greifen mit den Jahren die Oberfläche der Dachsteine an und speichern Feuchtigkeit. Mit einer schonenden, professionellen Dachreinigung stellen wir den sauberen Zustand Ihres Daches wieder her.',
+        'for': ['Moos- und Algenbefall', 'Verschmutzte Dachflächen', 'Vorbereitung auf Beschichtung'],
         'included': [
-            'Zügige Schadensaufnahme vor Ort',
-            'Sofortige Notabdichtung bei Wassereinbruch',
-            'Austausch beschädigter Ziegel & Latten',
-            'Reparatur von Kamin- und Wandanschlüssen',
-            'Prüfung angrenzender Dachbereiche',
-            'Dokumentation für die Versicherung auf Wunsch'
+            'Sorgfältiges Abkleben empfindlicher Bereiche & Rinnen',
+            'Reinigung mit speziell abgestimmtem Wasserdruck',
+            'Porentiefe Entfernung von Algen, Flechten & Pilzen',
+            'Reinigung und Freispülung aller Dachrinnen',
+            'Reinigung der umgebenden Hauswände & Fenster',
+            'Fachgerechte Entsorgung aller Schmutzreste'
         ],
-        'scope_note': 'Gefahrenbereiche müssen vor Betreten abgesichert werden. Notdienstzeiten und Anfahrten werden transparent besprochen.',
+        'scope_note': 'Geschulte Mitarbeiter arbeiten sicher vom Gerüst oder mit Sicherheitsgeschirr.',
         'steps': [
-            ('Schaden melden', 'Rufen Sie uns direkt unter +49 176 73501602 an.'),
-            ('Begutachtung vor Ort', 'Wir prüfen das Ausmaß und führen bei Bedarf sofortige Notmaßnahmen durch.'),
-            ('Reparatur ausführen', 'Fachgerechter Austausch defekter Teile und dauerhafte Abdichtung.'),
-            ('Sicheres Ergebnis', 'Ihr Dach ist wieder vollständig witterungsbeständig.')
+            ('Besichtigung vereinbaren', 'Anruf unter +49 40 64413366 oder Online-Anfrage senden.'),
+            ('Vorbereitung vor Ort', 'Abdeckung von Wintergärten, Fenstern und Gehwegen.'),
+            ('Porentiefe Reinigung', 'Systematische Säuberung von oben nach unten.'),
+            ('Sauberes Gesamtergebnis', 'Inklusive Rinnenreinigung und Aufräumarbeiten.')
         ],
         'prepare': [
-            'Fotos vom Schaden von innen und außen',
-            'Standort (z.B. Winsener Str. 19, Harburg)',
-            'Wann ist der Schaden aufgetreten?',
-            'Ist bereits Wasser eingedrungen?'
+            'Fotos von den verschmutzten Dachflächen',
+            'Adresse in Hamburg oder Umgebung',
+            'Wasser- und Stromanschluss am Objekt'
         ],
         'cost': [
-            'Ausmaß und Erreichbarkeit der Schadenstelle',
-            'Benötigtes Ersatzmaterial (Ziegel, Bleche, Folien)',
-            'Eilbedürftigkeit und Einsatzzeit',
-            'Erforderliche Sicherungsmaßnahmen'
+            'Dachfläche in Quadratmetern',
+            'Stärke des Moos- und Algenbefalls',
+            'Erreichbarkeit und Steilheit des Daches'
         ],
         'faqs': [
-            ('Was tun bei einem akuten Sturmschaden?', 'Kontaktieren Sie uns direkt unter +49 176 73501602. Wir sichern das Dach umgehend, um Folgeschäden im Gebäude zu vermeiden.'),
-            ('Rechnen Sie auch mit Gebäudeversicherungen ab?', 'Wir stellen Ihnen eine detaillierte Rechnung und Schadensdokumentation aus, die Sie bei Ihrer Versicherung einreichen können.'),
-            ('Reparieren Sie auch kleinere Schäden?', 'Ja, auch einzelne defekte Ziegel oder kleine Lecks werden von uns sorgfältig repariert.')
+            ('Wird das Dach bei der Reinigung beschädigt?', 'Nein, wir arbeiten mit angepasstem Wasserdruck und Profi-Düsen, die die Ziegeloberfläche schonen.'),
+            ('Muss nach der Reinigung imprägniert werden?', 'Eine Imprägnierung oder Beschichtung im Anschluss wird dringend empfohlen, um ein schnelles Wiedererblühen von Moos zu verhindern.')
         ],
-        'aside': 'Im Notfall schnell erreichbar: +49 176 73501602'
+        'aside': 'Saubere Dachflächen schützen das Gebäude langfristig.'
     },
     {
-        'slug': 'dachrinnenreinigung-wartung',
+        'slug': 'fassadenreinigung-beschichtung',
         'old_slug': 'packers-and-movers',
-        'name': 'Dachrinnenreinigung & Wartung',
-        'short': 'Freie Rinne.\nKlarer Ablauf.',
-        'category': 'WARTUNG',
+        'name': 'Fassadenreinigung & -beschichtung',
+        'short': 'Frische Fassade.\nWerterhalt fürs Haus.',
+        'category': 'FASSADE',
         'image': 'moving',
-        'alt': 'Saubere Dachrinne an einem Einfamilienhaus in Harburg',
-        'intro': 'Gründliche Reinigung von Dachrinnen und Fallrohren sowie Sichtprüfung des Daches für Werterhalt und Feuchtigkeitsschutz.',
-        'description': 'Dachrinnenreinigung und Dachwartung in Harburg & Hamburg von Dachservice Pintilei. Schutz vor Verstopfung und Wasserschäden.',
-        'overview': 'Laub, Moos und Schmutz verstopfen schnell Dachrinnen und Fallrohre. Überlaufendes Wasser kann die Fassade beschädigen oder ins Mauerwerk eindringen. Mit einer regelmäßigen Dachrinnenreinigung und Wartung durch Dachservice Pintilei sorgen Sie für freien Wasserablauf.',
-        'for': ['Einfamilien- & Mehrfamilienhäuser', 'Gewerbehallen', 'Hausverwaltungen'],
+        'alt': 'Fassadenreinigung und Schutzanstrich an einem Gebäude in Hamburg',
+        'intro': 'Schonende Fassadenreinigung, Algenentfernung und hochwertige Fassadenbeschichtung in Hamburg-Nord.',
+        'description': 'Fassadenreinigung und Fassadenanstrich von Bartsch & Loßner GmbH in Hamburg. Schutz vor Algen, Pilzen und Witterung.',
+        'overview': 'Schmutzige Fassaden wirken nicht nur unansehnlich, sondern Algen und Pilze können den Putz schädigen. Bartsch & Loßner GmbH reinigt und beschichtet Putz-, Klinker- und Betonglieder nachhaltig für eine frische Optik.',
+        'for': ['Putz- & Klinkerfassaden', 'Einfamilienhäuser & Gewerbe', 'Hausverwaltungen in Hamburg'],
         'included': [
-            'Gründliches Entfernen von Laub, Schmutz & Ablagerungen',
-            'Prüfung und Spülung der Fallrohre',
-            'Kontrolle der Rinnenverbindungen & Halterungen',
-            'Sichtprüfung der angrenzenden Dachziegel',
-            'Fachgerechte Entsorgung des Rinnenabfalls',
-            'Abschlussbericht zum Zustand der Rinne'
+            'Fassadenanalyse & Probefläche',
+            'Sanfte Vorbehandlung gegen Algen- & Pilzbefall',
+            'Schonendes Abwaschen der Fassade',
+            'Ausbesserung kleinerer Putzrisse',
+            'Hochwertiger Fassadenanstrich / Versiegelung',
+            'Saubere Abwicklung ohne Gerüstpfand'
         ],
-        'scope_note': 'Reinigung erfolgt sicher vom Gerüst, Leiter oder Hebebühne. Beschädigte Rinnenelemente können nach Absprache direkt ersetzt werden.',
+        'scope_note': 'Farbtonberatung erfolgt individuell direkt vor Ort.',
         'steps': [
-            ('Objekt angeben', 'Nennen Sie Gebäudeseiten, ungefähre Rinnenlänge und Höhe.'),
-            ('Inspektion & Säuberung', 'Wir reinigen Rinnen und Fallrohre gründlich und sicher.'),
-            ('Zustand prüfen', 'Überprüfung auf kleine Lecks oder lose Verbindungen.'),
-            ('Freier Ablauf', 'Ihre Entwässerungsanlage funktioniert wieder einwandfrei.')
+            ('Fassade prüfen', 'Ersterfassung und Farbauswahl.'),
+            ('Reinigen & Behandeln', 'Algenstopp und sanfte Reinigung.'),
+            ('Putz ausbessern', 'Vorbereitung kleinerer Schadstellen.'),
+            ('Fassadenanstrich', 'Aufbringen der wetterfesten Fassadenfarbe.')
         ],
         'prepare': [
-            'Ungefähre Länge der Dachrinne',
-            'Gebäudehöhe (z.B. 1- oder 2-stöckig)',
-            'Zugänglichkeit rund ums Haus',
-            'Wunschzeitraum (z.B. im Herbst nach Laubfall)'
+            'Geschätzte Fassadenfläche',
+            'Putzart oder Klinker',
+            'Gewünschte Farbänderung'
         ],
         'cost': [
-            'Länge und Höhe der Dachrinnen',
-            'Verschmutzungsgrad und Zugänglichkeit',
-            'Notwendige Reparaturen an Haltern oder Nahtstellen',
-            'Intervalle bei wiederkehrender Wartung'
+            'Fassadenfläche in m²',
+            'Verschmutzungsgrad und Befall',
+            'Anzahl der Anstriche und Qualitätsklasse der Farbe'
         ],
         'faqs': [
-            ('Wie oft sollte eine Dachrinne gereinigt werden?', 'Wir empfehlen eine Reinigung mindestens einmal jährlich, am besten im Spätherbst nach dem Laubfall.'),
-            ('Reinigen Sie auch Fallrohre?', 'Ja, das Freimachen verstopfter Fallrohre ist im Service inbegriffen.'),
-            ('Muss ich während der Reinigung zu Hause sein?', 'Solange der Zugang rund ums Haus gewährleistet is, müssen Sie nicht zwingend anwesend sein.')
+            ('Wie lange hält der Schutzanstrich der Fassade?', 'Ein professioneller Fassadenanstrich von Bartsch & Loßner schützt Ihr Gebäude 10 bis 15 Jahre vor erneuter Veralgung.'),
+            ('Bieten Sie auch Probeflächen an?', 'Ja, gerne legen wir vorab eine kostenlose Musterfläche an Ihrer Fassade an.')
         ],
-        'aside': 'Vermeiden Sie teure Wasserschäden durch regelmäßige Pflege.'
+        'aside': 'Schöne Fassaden steigern den Wert Ihrer Immobilie.'
     },
     {
-        'slug': 'flachdach-abdichtung',
+        'slug': 'dachinspektion-reparatur',
         'old_slug': 'waste-and-scrap-pickup',
-        'name': 'Flachdach & Abdichtung',
-        'short': 'Dichte Flächen.\nDauerhafter Schutz.',
-        'category': 'ABDICHTUNG',
+        'name': 'Dachinspektion & Reparatur',
+        'short': 'Gründliche Prüfung.\nFachgerechte Reparatur.',
+        'category': 'SANIERUNG',
         'image': 'tank',
-        'alt': 'Fachgerechte Flachdachabdichtung an einem Gebäude',
-        'intro': 'Zuverlässige Flachdachsanierung, Abdichtung von Garagen, Anbauten und Balkonen mit modernen Bitumen- oder Kunststoffbahnen.',
-        'description': 'Flachdachabdichtung und Sanierung von Dachservice Pintilei Harburg. Garagendächer, Anbauten und Gewerbeflächen dauerhaft dicht.',
-        'overview': 'Flachdächer stellen besondere Anforderungen an Abdichtung und Entwässerung. Ob Garage, Carport, Wohnanbau oder Gewerbehalle: Dachservice Pintilei führt Flachdachabdichtungen fachgerecht mit hochwertigen Abdichtungsstoffen aus.',
-        'for': ['Garagen & Carports', 'Wohngebäude-Anbauten & Balkone', 'Gewerbe- & Industrie-Flachdächer'],
+        'alt': 'Dachdecker bei Inspektion und Ziegelaustausch in Hamburg',
+        'intro': 'Dachkontrolle, Firsterneuerung, Ziegelaustausch und Ausbesserungsarbeiten vor der Beschichtung.',
+        'description': 'Dachreparatur und Dachinspektion von Bartsch & Loßner GmbH in Hamburg. First neu verstreichen, Ziegel austauschen.',
+        'overview': 'Vor jeder Beschichtung prüfen wir die Substanz Ihres Daches gründlich. Beschädigte Dachziegel werden ausgetauscht, Firste neu verfugt oder abgedichtet und Anschlüsse kontrolliert, damit das Dach vollkommen intakt ist.',
+        'for': ['Beschädigte Dachziegel', 'Bröckelnder Firstmörtel', 'Vorab-Check vor Beschichtung'],
         'included': [
-            'Zustandsanalyse der bestehenden Abdichtung',
-            'Reinigung & Vorbereitung des Untergrunds',
-            'Fachgerechte Verlegung von Bitumen- oder EPDM-Bahnen',
-            'Abdichtung von Wand- und Lichtschnittanschlüssen',
-            'Überprüfung von Notabläufen & Dachgullys',
-            'Qualitätstest & Abnahme'
+            'Detaillierte Sichtprüfung aller Dachpfannen',
+            'Austausch gebrochener oder gerissener Ziegel',
+            'Erneuerung & Trockenverlegung von Firstziegeln',
+            'Prüfung der Kamin- & Wandanschlüsse',
+            'Kontrolle der Dachrinnen & Ablaufrohre',
+            'Abschlussdokumentation zum Dachzustand'
         ],
-        'scope_note': 'Energetische Flachdachdämmungen (Gefälledämmung) werden individuell berechnet und angeboten.',
+        'scope_note': 'Kleinere Reparaturen werden im Rahmen der Vorbereitung direkt miterledigt.',
         'steps': [
-            ('Fläche ausmessen', 'Ersterfassung der Quadratmeter und Besichtigung vor Ort.'),
-            ('Sanierungskonzept', 'Auswahl des passenden Abdichtungssystems (Bitumen, Folie).'),
-            ('Abdichtung verlegen', 'Sorgfältige und blasenfreie Eindeckung der Fläche.'),
-            ('Dichtigkeitsprüfung', 'Abschließende Kontrolle aller Nähte und Abläufe.')
+            ('Dachinspektion', 'Gründliche Begehung und Mängelerfassung.'),
+            ('Reparaturplan', 'Transparenter Kostenvoranschlag.'),
+            ('Ausbessern', 'Ersetzen defekter Ziegel und Firstarbeiten.'),
+            ('Bereit zur Beschichtung', 'Ihr Dach ist nun perfekt vorbereitet.')
         ],
         'prepare': [
-            'Ungefähre Flachdachfläche in m²',
-            'Aktuelle Eindeckung (z.B. alte Teerpappe)',
-            'Fotos von feuchten Stellen oder Schäden',
-            'Standort in Harburg / Hamburg'
+            'Fotos von bekannten Lecks oder gebrochenen Ziegeln',
+            'Alter des Daches',
+            'Standort Pestalozzistraße / Hamburg'
         ],
         'cost': [
-            'Größe der Dachfläche',
-            'Gewähltes Abdichtungsmaterial',
-            'Notwendigkeit einer Erneuerung der Dämmung',
-            'Anzahl der Lichtkuppeln, Durchdringungen und Ränder'
+            'Menge der auszutauschenden Dachpfannen',
+            'Umfang der Firstarbeiten',
+            'Aufwand für Anschlüsse und Einblechungen'
         ],
         'faqs': [
-            ('Wie lange hält eine moderne Flachdachabdichtung?', 'Hochwertig verlegte Bitumen- oder EPDM-Bahnen halten bei fachgerechter Verlegung oft 25 bis 30+ Jahre.'),
-            ('Können Sie auch Garagendächer abdichten?', 'Ja, Garagendächer und Carports gehören zu unseren täglichen Aufgaben.'),
-            ('Wie erkennen Sie, dass das Flachdach undicht ist?', 'Feuchte Stellen an der Decke, Wasseransammlungen, Pfützenbildung oder Risse in der alten Schweißbahn sind klare Warnzeichen.')
+            ('Können kaputte Ziegel vor der Beschichtung gewechselt werden?', 'Ja! Das Ersetzen defekter Dachziegel gehört bei uns standardmäßig zur gründlichen Vorbereitung.'),
+            ('Wie schnell bekommen wir einen Termin?', 'Rufen Sie uns an unter +49 40 64413366. Wir vereinbaren zeitnah einen Besichtigungstermin.')
         ],
-        'aside': 'Nachhaltige Dichtigkeit für Garage, Haus und Gewerbe.'
+        'aside': 'Kompetent – schnell – zuverlässig.'
     }
 ]
 
 GENERAL_FAQS = [
-    ('Welche Leistungen bietet Dachservice Pintilei an?', 'Wir bieten professionelle Dachsanierung & Neueindeckung, Dachreparatur & Notdienst, Dachrinnenreinigung & Wartung sowie Flachdachabdichtungen.'),
-    ('Wo ist Dachservice Pintilei im Einsatz?', 'Unser Hauptsitz ist in Winsener Str. 19, 21077 Harburg, Germany. Wir sind in Harburg, Hamburg und der gesamten Region für Sie tätig.'),
-    ('Wie kann ich Dachservice Pintilei erreichen?', 'Sie erreichen uns direkt per Telefon unter +49 176 73501602 oder online über unsere Webseite dachdecker-pintilei.de.'),
-    ('Wie bewerten Kunden Dachservice Pintilei?', 'Dachservice Pintilei ist auf Google mit hervorragenden 5.0 von 5 Sternen bei 69 Kundenbewertungen ausgezeichnet!'),
-    ('Wann sind die Öffnungszeiten von Dachservice Pintilei?', 'Unser Betrieb öffnet ab Montag 07:00 Uhr (Mo-Fr ab 07:00 Uhr). Bei Sturmschäden bieten wir zudem schnellen Notdienst.'),
-    ('Ist eine Anfrage oder Besichtigung unverbindlich?', 'Ja, die erste Kontaktaufnahme und Terminabsprache zur Dachbeurteilung ist für Sie vollkommen unverbindlich.')
+    ('Welche Leistungen bietet Bartsch & Loßner GmbH an?', 'Wir sind Ihr Fachbetrieb für professionelle Dachbeschichtung & Versiegelung, Dachreinigung & Entmoosung, Fassadenreinigung & -beschichtung sowie Dachinspektion und Reparaturen in Hamburg und Norddeutschland.'),
+    ('Wo ist Bartsch & Loßner GmbH ansässig?', 'Unser Firmensitz ist in Pestalozzistraße 25, 22305 Hamburg-Nord, Germany (in hwcon GmbH). Wir arbeiten in ganz Hamburg und im gesamten norddeutschen Raum.'),
+    ('Wie kann ich Bartsch & Loßner GmbH erreichen?', 'Sie erreichen uns telefonisch unter +49 40 64413366 oder online über unsere Webseite bartsch-dachbeschichtung.de.'),
+    ('Wie wird Bartsch & Loßner GmbH bewertet?', 'Bartsch & Loßner GmbH ist mit 4.8 von 5 Sternen bei 71 Google-Bewertungen ausgezeichnet!'),
+    ('Welche Öffnungszeiten hat Bartsch & Loßner GmbH?', 'Unser Büro ist von Montag bis Freitag von 08:00 bis 18:00 Uhr geöffnet.'),
+    ('Ist ein Erstgespräch oder eine Probefläche kostenlos?', 'Ja! Wir bieten Ihnen eine kostenlose Beratung vor Ort an und legen auf Wunsch auch eine Probefläche an.')
 ]
